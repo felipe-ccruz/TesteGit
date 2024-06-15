@@ -5,5 +5,8 @@ public class App {
 
         p1.addIdade();
         p2.addIdade();
+
+        System.out.println(p1.toString());
+        System.out.println(p2.toString());
     }
 }

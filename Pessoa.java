@@ -9,7 +9,14 @@ public class Pessoa {
     public void addIdade(){
         setIdade(getIdade() + 1);
     }
+
     
+    
+    @Override
+    public String toString() {
+        return "Pessoa [nome=" + nome + ", idade=" + idade + "]";
+    }
+
     public String getNome() {
         return nome;
     }
@@ -22,4 +29,6 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+
 }
