@@ -6,7 +6,9 @@ public class Pessoa {
         this.idade = idade;
     }
     
-    
+    public void addIdade(){
+        setIdade(getIdade() + 1);
+    }
     
     public String getNome() {
         return nome;
